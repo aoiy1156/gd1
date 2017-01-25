@@ -53,7 +53,7 @@ body {
 }
 .naiyou li a	{
 	display: block;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none;
@@ -63,7 +63,7 @@ body {
 	background-color: #eeeeee
 }
 .naiyou i {
-	margin-left: 15px; 
+	margin-left: 15px;
 }
 
 .menu ul {
@@ -97,6 +97,11 @@ body {
 	font-weight: normal;
 	font-size: 34px;
 }
+.top p{
+	margin-bottom: 25px;
+	font-size: 18px;
+	color: #717071;
+}
 .top img {
 	padding: 20px 0px 20px 0px;
 }
@@ -122,9 +127,9 @@ body {
 .gaiyou p {
 	display: block;
 	margin-top: 0px;
-	margin-bottom: 0px;
-	font-size: 14px;
-	padding-top: 15px;
+	margin-bottom: 25px;
+	font-size: 15px;
+	padding-top: 20px;
 	padding-bottom: 15px;
 }
 .gaiyou i {
@@ -133,10 +138,10 @@ body {
 }
 /*コピーライト*/
 .copyright {
+	padding: 15px;
 	height: auto;
 	width: 100%;
 	margin-top: 10px;
-	text-align: center;
 	font-size: 14px;
 	box-sizing: border-box;
 	color: #000;
@@ -237,6 +242,7 @@ body {
 	color: #000;
 }
 .site img {
+	margin: 10px;
 	border: none;
 	display: block;
 }
@@ -274,9 +280,10 @@ body {
 	color: #000;
 }
 .site img {
+
 	border: none;
 	display: block;
-	margin: 0 auto;
+	margin: 15px;
 }
 .boxB {
 	margin: 5px;
@@ -299,7 +306,7 @@ body {
 
 .menu li a{
 	display: block;
-	padding: 10px 10px;
+	padding: 20px 15px;
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none;
@@ -316,6 +323,7 @@ body {
 }
 
 .menu li{
+	margin-left: 20px;
 	float: left;
 	width: auto;
 }
@@ -337,7 +345,7 @@ body {
 	border: solid 6px #eeeeee;
 	box-sizing: border-box;
 	position: absolute ;
-	top: 60px;
+	top: 90px;
 }
 .sidemenu ul{
 	margin: 0;
@@ -364,6 +372,4 @@ body {
 	display: block;
 	clear: both;
 }
-
-
 }

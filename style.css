@@ -1,0 +1,369 @@
+@charset "UTF-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
+	max-width :100%;
+}
+/*ボックス*/
+.boxA {
+	margin: 0 auto;  
+	height: auto;
+	overflow: auto;
+}
+.boxB {
+	margin: 5px;
+}
+.boxA-2 {
+	height: 50%;
+	background-color: #f9ffd3;
+	box-sizing: border-box;
+	color: #aabc21;
+}
+.box1 {
+	height: auto;
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.box1 img {
+	width: 100%;
+}
+.box2 {
+	margin-top: 20px;
+}
+.box2-1,.box2-2,.box2-3 {
+	padding-bottom: 10px;
+}
+/*内容*/
+.naiyou :after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.naiyou ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.naiyou li{
+	float: left;
+}
+.naiyou li a	{
+	display: block;
+	padding: 10px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.naiyou li a:hover	{
+	background-color: #eeeeee
+}
+.naiyou i {
+	margin-left: 15px; 
+}
+
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+	background-color: #fff;
+}
+
+/*m*/
+.m {
+	margin-right: 20px;
+	width: 20px;
+	height: 51px;
+	background-color: #C11E1E;
+	float: left;
+	overflow: auto;
+}
+.m :after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*top*/
+.top {
+	position: relative;
+}
+.top h1 {
+	display: block;
+	font-weight: normal;
+	font-size: 34px;
+}
+.top img {
+	padding: 20px 0px 20px 0px;
+}
+
+/*gaiyou*/
+.gaiyou a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	background-color: #222;
+}
+.gaiyou h1 {
+	display: block;
+	font-size: 28px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #eeeeee;
+}
+.gaiyou p {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.gaiyou i {
+	color: #9F9FA0;
+	margin-right: 10px;
+}
+/*コピーライト*/
+.copyright {
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	box-sizing: border-box;
+	color: #000;
+	background-color: #ededed;
+}
+/*sidemenu*/
+.sidemenu {
+	margin-left: 5px;
+	border: solid 6px #eeeeee;
+	box-sizing: border-box;
+}
+.sidemenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+.sidemenu li {
+	border-bottom: solid 1px #eeeeee;
+}
+.sidemenu li a	{
+	display: block;
+	padding: 8px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+.sidemenu i {
+	color: #9AC716;
+	padding-right: 2px;
+}
+
+.sidemenu li a:hover{
+	background-color: #eeeeee
+}
+
+.sidemenu ul:after{
+	content: "";
+	display: block;
+	clear: both
+}
+/*767以下*/
+@media (max-width: 767px){
+
+.site {
+	margin-top:5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+#menubtn {
+	padding:6px 12px;
+	border: solid 1px #aaaaaa;
+	background-color: #ffffff;
+	border-radius: 5px;
+	position: absolute;
+	top:20px;
+	right:15px;
+	cursor: pointer;
+}
+#menubtn:hover {
+	background-color: #dddddd;
+}
+#menubtn:focus {
+	outline:none;
+}
+#menubtn i {
+	color: #888888;
+	font-size: 18px;
+}
+#menubtn span {
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+#menu {
+	display: none;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.menu li a {
+	display: block;
+	padding:5px;
+	color:#000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #eeeeee;
+}
+.boxA-1 {
+	padding-bottom: 20px;
+	border-bottom: solid 1px #eee;
+}
+.site a {
+	text-decoration: none;
+	color: #000;
+}
+.site img {
+	border: none;
+	display: block;
+}
+}
+/*768以上*/
+@media (min-width: 768px){
+	.boxA :after {
+		clear: both;
+		display: block;
+		content: "";
+	}
+	.boxA-1 {
+		float: left;
+		width: 50%;
+	}
+	.boxA-1 {
+		height: 50%;
+		color: #aabc21;
+		display: block;
+	}
+	.boxA-2 {
+		float: left;
+		width: 50%;
+	}
+	.boxA {
+		border-bottom: solid 1px #ededed;
+		margin-bottom: 20px;
+	}
+	.box1 {
+		margin-top: 20px;
+	}
+
+.site a {
+	text-decoration: none;
+	color: #000;
+}
+.site img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+.boxB {
+	margin: 5px;
+	width: 75%;
+	margin-left: auto;
+	max-width: 1000px;;
+}
+#menubtn {
+	display: none;
+}
+
+#menu {
+	display: block !important;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li a{
+	display: block;
+	padding: 10px 10px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background-color: #eeeeee;
+}
+
+.menu ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.menu li{
+	float: left;
+	width: auto;
+}
+
+.box2 {
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.box2 :after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.sidemenu {
+	width: 20%;
+	margin-left: 5px;
+	border: solid 6px #eeeeee;
+	box-sizing: border-box;
+	position: absolute ;
+	top: 60px;
+}
+.sidemenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sidemenu li {
+	border-bottom: solid 1px #eeeeee;
+}
+.sidemenu li a	{
+	display: block;
+	padding: 8px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sidemenu li a:hover{
+	background-color: #eeeeee;
+}
+
+.sidemenu ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+}
